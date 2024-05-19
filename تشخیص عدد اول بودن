@@ -1,0 +1,16 @@
+int n,tedad=0;
+cout<<"\nenter 1 number:";
+cin>>n;
+for (int i=1;i<=n;i++)
+if (n%i==0) tedad++;
+if (tedad==2) cout<<"\n"<<n<<" avval ast";
+else cout<<"\n"<<n<<" avval nist";
+if (num==2) cout<<"\n"<<a<<" avval ast";
+int n,tedad=0;
+for (n=1;n<=1000;n++)
+{
+tedad=0;
+for (int i=1;i<=n;i++)
+if (n%i==0) tedad++;
+if (tedad==2) cout<<"\t"<<n;
+}
