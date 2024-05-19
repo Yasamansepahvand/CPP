@@ -1,0 +1,11 @@
+چاپ عدد تا 1 نزولی:
+#include <iostream>
+using namespace std;
+main()
+{
+    int a;
+    cout<<"enter a number: ";
+    cin>>a;
+    for (int i=a;i>=1;i--)
+    cout<<i<<"  ";
+}

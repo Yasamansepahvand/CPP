@@ -1,0 +1,28 @@
+دریافت دو عدد و جاب جایی آنها ب کمک متغیر کمکی:
+#include<iostream.h>
+
+void main()
+
+{
+
+            int a,b,c;
+
+            cout<<"Enter a"<<endl;
+
+            cin>>a;
+
+            cout<<"Enter b"<<endl;
+
+            cin>>b;
+
+            c=a;
+
+            a=b;
+
+            b=c;
+
+            cout<<"a ="<<a<<endl;
+
+            cout<<"b ="<<b<<endl;
+
+}

@@ -1,0 +1,11 @@
+تبدیل فارنهایت ب سانتیگراد:
+#include <iostream>
+#include <conio.h>
+main()
+{
+    float f;
+    cout << "Enter Fahrenheit Degree: \n";
+    cin>>f;
+    cout<<"Centigrade Degree :\t"<<(f-32)/1.8;
+    getch();
+}

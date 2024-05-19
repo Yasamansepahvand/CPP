@@ -1,0 +1,20 @@
+دریافت طول و عرض مستطیل و محاسبه مساحت و محیط آن:
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float a , b, p ,s ;
+    cout << "Yek adad vared konid :"<< endl;
+        cin >> a;
+
+    cout << "adad dovom ra vared karde: " << endl;
+         cin>> b;
+    p = 2 * (a + b);
+    s = a * b ;
+        cout <<"P= "  << p<< endl;
+           cout << "S =" << s << endl;
+
+    return 0;
+}

@@ -1,0 +1,13 @@
+دریافت دو عدد و جمع آنها:
+#include<iostream>
+#include<conio.h>
+using namespace std;
+ 
+main()
+{
+    int a,b;
+    cin>>a>>b;
+    cout<<a+b;
+    getch();
+    return 0;
+}
