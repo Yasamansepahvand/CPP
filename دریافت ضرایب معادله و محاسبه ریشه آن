@@ -1,0 +1,23 @@
+#include <iostream.h>
+ #include <math.h>
+ void main()
+ {
+ int a,b,c;
+ cout<<"enter a,b,c";
+ cin>>a>>b>>c;
+ int delta=b*b-4*a*c;
+ if (delta<0) cout<<"risheh nadarad";
+ else if (delta==0)
+ {
+ cout<<"1 risheh darad";
+ double x1=-b/(2.0*a);
+ cout<<x1;
+  }
+ else //if (delta>0)
+ {
+  cout<<"2 rishehdarad";
+  double x1=(-b+sqrt(delta))/(2*a);
+  double x2=(-b-sqrt(delta))/(2*a);
+  cout<<"\nx1="<<x1<<"  x2="<<x2;
+ }
+  }
